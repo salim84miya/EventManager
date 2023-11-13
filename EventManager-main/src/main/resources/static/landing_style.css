@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;700&display=swap');
+
+/* color palette: https://colorhunt.co/palette/ececec9fd3c7385170142d4c */
+
+* {
+    /* border: 2px solid red; */
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #e6e6e63b;
+  
+}
+
+#main {
+    padding-left: 30px;
+    padding-right: 30px;
+     
+}
+
+#logo {
+    width: 12%;
+    filter: drop-shadow(7px 7px 5px rgb(125, 125, 125));
+    /* add shadow to logo */
+}
+
+#navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+#nav_list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline-start: 0px;
+    padding: 5px;
+}
+
+#nav_list li {
+    padding: 0px 40px;
+}
+
+#nav_list li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    position: relative;
+}
+
+#nav_list li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.1em;
+    background-color: #142D4C;
+    opacity: 0;
+    transition: opacity 300ms, transform 300ms;
+}
+  
+#nav_list li a:hover::after, #nav_list li a:focus::after {
+    opacity: 1;
+    transform: translate3d(0, 0.2em, 0);
+}
+
+.nav {
+    margin: 0px 30px;
+}
+
+#login_btn1 {
+    width: 7%;
+    padding: 5px;
+    border: 2px solid #142D4C;
+    border-radius: 20px;
+    background: transparent;
+    color: #142D4C;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+#login_btn1:hover {
+    background: #142d4c21;
+}
+
+#main_text {
+    font-size: 6rem;
+    font-weight: bold;
+    color: white;
+    -webkit-text-stroke: 3px black;
+    margin-block-start: 45px;
+    margin-block-end: 45px;
+    line-height: 6rem;
+}
+
+.hover_text1:hover {
+    color: black;
+}
+
+#main_p1 {
+    font-size: 1.35rem;
+    color: rgb(95, 95, 95);
+}
+
+#login_btn2 {
+    width: 10%;
+    padding: 10px;
+    border: 2px solid #142D4C;
+    border-radius: 25px;
+    background: #142D4C;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+    margin-block-start: 45px;
+    margin-block-end: 45px;
+}
+
+#login_btn2:hover {
+    color: #142D4C;
+    background: #142d4c21;
+}

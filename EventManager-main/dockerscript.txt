@@ -1,0 +1,27 @@
+
+
+//launching the mysql using docker
+docker run --detach --env MYSQL_ROOT_PASSWORD=dummypassword --env MYSQL_USER=events-user --env MYSQL_PASSWORD=abcd --env MYSQL_DATABASE=eventmanagement --name mysql_event_management --publish 3307:3306 mysql:8-oracle
+
+		//connecting to the shell
+				step1:
+				\connect events-user@localhost:3307 
+				
+				step2:
+				\use eventmanagement
+				
+				step3: 
+				\sql
+				
+		done!
+
+
+//copy of above just created for better visualisation
+docker run --detach 
+--env MYSQL_ROOT_PASSWORD=dummypassword 
+--env MYSQL_USER=events-user 
+--env MYSQL_PASSWORD=abcd 
+--env MYSQL_DATABASE=eventmanagement 
+
+--name mysql_event_management 
+--publish 3307:3306 mysql:8-oracle

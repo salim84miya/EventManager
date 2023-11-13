@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;700&display=swap');
+
+/* color palette: https://colorhunt.co/palette/ececec9fd3c7385170142d4c */
+
+* {
+    /* border: 2px solid red; */
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-color: #e6e6e63b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#signin {
+    width: 20%;
+    box-shadow: 0px 0px 7px 3px #aeaeae73;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#signin_f {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.text1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+#signin_f input {
+    border: none;
+    border-bottom: 2px solid #142D4C;
+    border-radius: 2.5px;
+    background: transparent;
+    margin: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+
+}
+
+#signin_f input:focus {
+    outline: none;
+    box-shadow: 0px 0px 3px 1px #131a2fa3;;
+    border-bottom: 2px solid #142D4C;
+}
+
+#forget_p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#forget_p a {
+    color: #808080b8;
+    text-decoration: none;
+}
+
+#forget_p a:hover {
+    color: #142D4C;
+    text-decoration: underline;
+}
+
+#btn_div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#btn1 {
+    align-self: center;
+    width: 45%;
+    padding: 10px;
+    border: 2px solid #142D4C;
+    border-radius: 25px;
+    background: #142D4C;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+}
+
+#btn1:hover {
+    color: #142D4C;
+    background: #142d4c21;
+}

@@ -1,0 +1,166 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-image: url(Images/bgm.jpg);
+    background-size: cover;
+    background-position: center;
+    animation: fadeIn 2s;
+	backdrop-filter: blur(2px);
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  header {
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  header h2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+  }
+  
+  header nav {
+    text-align: right;
+  }
+  
+  header nav a {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  header nav a:hover {
+    background-color: transparent;
+  }
+  
+  main {
+    padding: 20px 0;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  section#hero {
+    background-image: url(images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: top 50px;;
+    height: 600px;
+  }
+  
+  section#hero h2 {
+    font-size: xx-large;
+    margin-top: 100px;
+    color: black;
+    text-shadow: 0 0 10px white;
+  }
+  
+  section#hero p {
+    color: black;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  section#hero a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 40px;
+    background-color: #000000;
+    border-radius: 5px;
+    margin-top: 80px;
+    text-align: center;
+  }
+  
+  section#about {
+    text-align: center;
+  }
+  
+  section#about h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  section#about p {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 20px 0;
+  }
+  
+  section#about a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 40px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  section#services {
+    text-align: center;
+  }
+  
+  section#services h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  section#services .services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  section#services .service {
+    width: 250px;
+    margin: 20px;
+  }
+  
+  section#services .service img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  section#services .service h3 {
+    font-size: 24px;
+    font-weight: 700;
+  }  
+
+  /* .hero {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  } */
+  
